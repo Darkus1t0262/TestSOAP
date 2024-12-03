@@ -32,17 +32,21 @@ http://127.0.0.1:5000/soap
 6. Select raw as the input type.
 7. Choose XML from the dropdown (next to the Text label).
 8. Paste the following SOAP request:
-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:spy="spyne.examples.helloworld">
+   ```bash
+   <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:spy="spyne.examples.helloworld">
    <soapenv:Header/>
    <soapenv:Body>
       <spy:saludar/>
    </soapenv:Body>
-</soapenv:Envelope>
+   </soapenv:Envelope>
+
 9.Go to the Headers tab.
 10. Add the following header:
 Key: Content-Type
 Value: text/xml
 11. Click the Send button.
+## Screenshot
+![image](https://github.com/user-attachments/assets/2edf55f6-a224-4b30-8fa0-554951275f5e)
 
 
 
